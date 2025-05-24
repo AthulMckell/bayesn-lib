@@ -33,5 +33,5 @@ An interactive web application for browsing, selecting, and checking out books u
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/library-app.git
-cd library-app
+https://github.com/AthulMckell/bayesn-lib.git
+cd bayesn-lib

@@ -1,12 +1,37 @@
-# React + Vite
+# 📚 Library App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web application for browsing, selecting, and checking out books using the [Gutenberg Public API](https://gutendex.com/). Built with **React + Zustand + Tailwind CSS**, following a mobile-first responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 User login (mocked authentication)
+- 🎯 Category-based book browsing using the Gutendex API
+- 📖 Interactive catalogue with live book data
+- ✅ Selection with constraints (max 5 books, max 3 per category)
+- 🛒 Checkout summary and state management
+- 🔁 Navigation with React Router
+- ⚡ State handled via Zustand
+- 📱 Fully responsive (mobile-first)
+- 🔓 Logout and session reset
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+- **Frontend:** React + Vite
+- **Routing:** React Router
+- **State Management:** Zustand
+- **Styling:** Tailwind CSS
+- **API:** https://gutendex.com
+
+---
+
+## 🛠 Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/library-app.git
+cd library-app

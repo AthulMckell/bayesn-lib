@@ -34,4 +34,8 @@ An interactive web application for browsing, selecting, and checking out books u
 
 ```bash
 https://github.com/AthulMckell/bayesn-lib.git
-cd bayesn-lib
+    cd bayesn-lib
+ -Install dependencies
+    npm install
+- Run the development server
+    npm run dev
